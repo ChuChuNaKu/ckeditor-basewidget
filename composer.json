@@ -1,0 +1,13 @@
+{
+    "name": "chuchunaku/ckeditor-basewidget",
+    "type": "drupal-library",
+    "description": "A plugin for ckeditor",
+    "require": {
+        "php": "^5.3.3 || ^7.0"
+    },
+    "version": "1.0.0",
+    "dist": {
+      "url": "http://download.ckeditor.com/basewidget/releases/basewidget_1.0.0.zip",
+      "type": "zip"
+    }
+}
