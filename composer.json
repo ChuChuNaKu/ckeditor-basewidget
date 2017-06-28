@@ -1,12 +1,17 @@
 {
   "name": "chuchunaku/ckeditor-basewidget",
+  "type": "drupal-library",
   "description": "A plugin for ckeditor.",
   "license": "GPL-2.0+",
   "require": {
-    "ckeditor/basewidget": "1.0.0"
+    "ckeditor/basewidget": "1.0.0",
+    "composer/installers": "^1.0.20"
   },
-  "minimum-stability": "dev",
-  "prefer-stable": true,
+  "scripts": {
+    "pre-update-cmd": [
+      "ln -s vendor/ckeditor/basewidget/plugin.js plugin.js"
+    ]
+  },
   "repositories": [
     {
       "type": "package",
